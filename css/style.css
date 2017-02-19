@@ -1,4 +1,5 @@
 html, body {
+	min-height: 100%;
 	margin: 0;
 	font-family: arial, sans-serif;
 	font-size: 13px;
@@ -6,8 +7,9 @@ html, body {
 }
 
 .content {
-	width: 500px;
+	width: 600px;
 	margin: 0 auto;
+	margin-bottom: 24px;
 }
 
 nav ul {
@@ -33,9 +35,10 @@ a:hover {
 }
 
 .logo {
-	padding-top: 200px;
-	width: 272px;
+	padding-top: 198px;
+	padding-bottom: 8px;
 	margin: 0 auto;
+	width: 272px;
 }
 
 .logo img{
@@ -47,16 +50,71 @@ a:hover {
 	display: block;
 	margin: 0;
 	position: relative;
-	bottom: 25px;
+	bottom: 19px;
 	left: 215px;
 	font-family: roboto-regular, arial, sans-serif;
 	color: #4285f4;
-	font-size: 22px;
+	font-size: 16px;
 }
 
+form {
+	text-align: center;
+}
+
+.searchbox {
+	width: 584px;
+	height: 44px;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16),0 0 0 1px rgba(0,0,0,0.08);
+	border-radius: 2px;
+	background-color: #fff;
+	position: relative;
+	left: 15px;	
+}
+
+.searchbox:hover {
+	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+	border: none;
+}
+
+.search {
+	padding: 5px 9px 0 16px;
+	width: 100%;
+	height: 34px;
+	line-height: 34px;
+	border: none;
+	background-color: transparent;
+	color: #000;
+	font-size: 16px;
+	font-family: arial, sans-serif;
+}
+
+.buttons {
+	padding-top: 21px;
+}
+
+.buttons input {
+	height: 36px;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	cursor: default;
+	font-weight: bold;
+	margin: 11px 2px;
+	padding: 0 16px;
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	text-align: center;
+}
+
+.buttons input + input {
+	padding-right: 20px;
+}
 
 .form p {
-	margin: 12px 0 24px 0;
+	position: relative;
+	right: 2px;
+	margin: 18px 0 24px;
 	text-align: center;
 	color: #222;
 }
