@@ -12,3 +12,8 @@ Odin Project's html-css project
  8. Build a very basic form (even if it doesn't "go" anywhere)
 
 From The Odin Project's [curriculum](http://www.theodinproject.com/web-development-101/html-css)
+
+TO DO:
+Add links
+Fix footer overlap
+Search bar shrink
